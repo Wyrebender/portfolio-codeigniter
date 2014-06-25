@@ -1,0 +1,27 @@
+input {
+	font-size: 16px;
+	height: 30px;
+}
+
+.error, .required { color: #FF3532; }
+
+.textfield {width: 455px;}
+
+
+#hint {
+	font-size: 12px;
+	font-style: italic;
+	color: #CCC;
+}
+
+#textarea_contact {
+	font-size: 16px;
+	width: 460px !important;
+	height: 400px !important;
+}
+
+#textarea_new_post {
+	font-size: 16px;
+	width: 593px !important;
+	height: 400px !important;
+}

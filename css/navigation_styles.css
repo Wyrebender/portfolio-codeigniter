@@ -1,0 +1,84 @@
+/*Navigation Styles (Franco Haley Web Design + Development Portfolio) CSS Document*/
+
+/*Global Navigation Style*/
+#navigation {
+	height: 46px;
+	width: 400px;
+	text-indent: -999999px;
+	margin-top: 78px; 
+	float: left;
+	background-image: url(../images/bg_navigation_sprite_nb.png);
+	background-repeat: no-repeat;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #fff;
+}
+
+#navigation li {
+	border-style: none;
+	list-style-type: none;
+	float: left;
+	width: 100px;
+}
+
+.page_home a, .page_portfolio a, .page_blog a, .page_about a, .page_contact a {
+	display: block;
+	height: 46px;	
+	width: 100px;
+}
+
+/* .page_home, .page_home_current {margin-left: 100px;} */
+
+/*Global Navigation Style - mouse hovers object*/
+.page_home a:hover, .page_home_current {
+	background: url(../images/bg_navigation_sprite.png) no-repeat 0px -50px;
+	height: 46px;	
+	width: 100px;
+}
+
+.page_portfolio a:hover, .page_portfolio_current {
+	background: url(../images/bg_navigation_sprite.png) no-repeat -100px -50px;
+	height: 46px;	
+	width: 100px;
+}
+
+.page_blog a:hover, .page_blog_current {
+	background: url(../images/bg_navigation_sprite.png) no-repeat -200px -50px;
+	height: 46px;	
+	width: 100px;
+}
+
+.page_about a:hover, .page_about_current {
+	background: url(../images/bg_navigation_sprite.png) no-repeat -300px -50px;
+	height: 46px;	
+	width: 100px;
+}
+
+.page_contact a:hover, .page_contact_current {
+	background: url(../images/bg_navigation_sprite.png) no-repeat -400px -50px;
+	height: 46px;	
+	width: 100px;
+}
+
+a img {border: none;}
+
+a:link {
+	border: none;
+	color: #51b3e9;
+	text-decoration: none;
+}
+a:visited {
+	border: none;
+	color: #51b3e9;
+	text-decoration: none;
+}
+a:hover {
+	border: none;
+	color: #eaeaea; 
+	text-decoration: underline;
+}
+a:active {
+	border: none;
+	text-decoration: none;
+}
+#portrait img {padding: 10px;}

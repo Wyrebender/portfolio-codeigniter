@@ -1,0 +1,86 @@
+/*------------------------------------------------------------------
+[Mobile Stylesheet]
+
+Project:	Portfolio
+Version:	1.6
+Last change:: 	09/02/13 [modify comments, cleanup]
+Author: 	Franco Haley
+
+DIRECTORY
+	1. =HEADER
+	2. =PRIMARY
+	3. =FORMS
+	4. =FOOTER
+-------------------------------------------------------------------*/
+
+/* ======= [HEADER]
+========================================= */
+#menu {
+	margin: 95px 0;
+}
+
+#headline h4, #headline h6 {
+	display: none;
+}
+#headline img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ======= [PRIMARY]
+========================================= */
+#myphoto img{
+	display: block;
+	padding: 10px 0 0 11px;
+}
+#myphoto {
+	background-image: url(../images/bg_portrait.jpg);
+	background-repeat: no-repeat;
+	width: 293px;
+	height: 293px;
+	margin: 10px auto;
+}
+#work_details {
+	width: 305px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#screen_options {
+	border: 1px solid #fff;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding-bottom: 10px;
+}
+#screen_options h4 {
+	text-align: center;
+}
+#screen_options li {
+	list-style-type: none;
+	float: left;
+	margin-right:30px;
+}
+.content-primary {margin-top: 30px;}
+.content-primary img {margin: 2px 0 0 5px;}
+.content-primary h3 {padding-top: 15px;}
+.mobile_badges {line-height: 1.8em;}
+
+/* ======= [FORMS]
+========================================= */
+.error {
+	margin-left: 50px;
+	color: red;
+}
+.textfield {margin-top: 10px;}
+.submission_results {margin: 0 auto;}
+#contact_form {padding-top: 20px;}
+
+/* ======= [FOOTER]
+========================================= */
+#row_footer {
+	text-align: center;
+	font-size: 0.75em;
+}

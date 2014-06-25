@@ -1,0 +1,304 @@
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:	Portfolio
+Version:	1.6
+Last change:	09/02/13 [modify comments, cleanup]
+Author: 	Franco Haley
+
+DIRECTORY
+	1. =BASE
+	2. =LAYOUT
+	3. =HEADER
+	4. =GALLERY / THUMBNAILS
+	5. =GRAPHICS
+	6. =PRIMARY
+	7. =SIDEBAR
+	8. =FORMS
+	9. =FOOTER
+-------------------------------------------------------------------*/
+
+
+/* ======= [BASE]
+========================================= */
+body {
+	background: url(../images/black_texture.jpg) #000 repeat;
+	font: 0.875em Arial, Helvetica, sans-serif;
+	color: #fff;
+	line-height: 1.3em;
+}
+h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+input {
+	font-size: 16px;
+	height: 30px;
+}
+label {margin-right: 5px;}
+strong{font-weight: bold;}
+
+/* ======= [LAYOUT]
+========================================= */
+.clearfix:after {
+   content: "";
+   display: block;
+   height: 0;
+   clear: both;
+}
+.center_layout {margin: 0 auto;}
+.hide {display: none;}
+.inactive, .inactive a {color: #999;}
+.show {display: block;}
+.hide_text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.align_left{float: left;}
+.align_right{float: right;}
+.align_none{float: none;}
+.last {
+	background: url(../images/bg_pattern.png) repeat;
+	width: 100%;
+}
+.line {line-height: 1.875em;}
+
+/* ======= [HEADER]
+========================================= */
+#row_header {
+	color: #fff;
+	background: url(../images/bg_header.jpg) repeat-x;
+	width: 100%;
+}
+#logo a {
+	background: url(../images/fh_logo.jpg) no-repeat;
+	margin: 2px 0 0 10px;
+	height: 112px;
+	width: 132px;
+}
+#site_title {
+	background: url(../images/franco_haley_text.png) no-repeat;
+	margin-top: 52px;
+	height: 70px;
+	width: 395px;
+}
+
+.bg_texture {background: url(../images/bg_body.jpg) repeat;}
+
+/* ======= [GALLERY / THUMBNAILS]
+========================================= */
+.gallery {
+	margin: 0 0 20px 20px;
+	border: 1px solid #FFF;
+	width: 905px;
+	padding: 5px;
+}
+.center_align{text-align: center}
+.list_item {margin-top: 40px;}
+
+.gallery li, .showcase li {
+	background: url(../images/photo_frame.jpg) no-repeat;
+	height: 180px;
+	width: 285px;
+	float: left;
+	margin: 5px 5px 25px 5px;
+	border: 3px solid #FFF;
+}
+.showcase {
+	border: 1px solid #FFF;
+	padding: 5px;
+	overflow: visible;
+}
+.showcase_single {
+	border: 1px solid #FFF;
+	padding: 10px;
+	overflow: visible;
+}
+.box_subheader {
+	border: 1px solid #FFF;
+	height: 30px;
+	background: url(../images/blueprint_grid.png) center;
+}
+.box_title {
+	background: url(../images/blueprint_grid.png) center;
+	height: 80px;
+	border: 1px solid #FFF;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 6.7em;
+}
+.box_content {
+	padding: 10px;
+	border: 1px solid #FFF;
+}
+.datestamp {text-align: right;}
+.pagination p, .post_link p {text-align: center;}
+.post_textfield {width: 590px;}
+
+.button {
+	font-family: "Arial Black", Helvetica, sans-serif;
+	background: url(../images/bg_button.jpg) no-repeat;
+	height: 45px;
+	width: 100px;
+	color: #18366D;
+	cursor: pointer;
+}
+.gallery li img, .showcase li img {margin: 10px 0 10px 10px;}
+.gallery li p, .showcase li p, .showcase_single p {
+	margin-top: 5px;
+	text-align: center;
+}
+.floaterbox {margin-bottom: 20px;}
+#portrait {
+	background: url(../images/bg_portrait.jpg) no-repeat;
+	height: 290px;
+	width: 290px;
+	border: 3px solid #FFF;
+	margin: 0 8px 1px 0;
+}
+#portrait img {padding: 10px;}
+
+/* ======= [GRAPHICS]
+========================================= */
+#pen_graphic {
+	background: url(../images/blueprint_pen.png) no-repeat;
+	height: 313px;
+	width: 85px;
+	left: 30px;
+	z-index: auto;
+	position: relative;
+}
+#triangle_ruler_graphic {
+	background: url(../images/triangle_ruler.png) no-repeat;
+	height: 330px;
+	width: 213px;
+	z-index: auto;
+	position: relative;
+	top: -10px;
+	left: 20px;
+}
+#spotlight_graphic {
+	background: url(../images/spotlight.jpg) no-repeat top;
+	width: 960px;
+	min-height: 400px;
+}
+
+/* ======= [PRIMARY]
+========================================= */
+#row_main {
+	background: url(../images/bg_body.jpg) repeat;
+	width: 100%;
+}
+#container_main {border: 1px solid #FFF;}
+#biography, #contact_form, #section_post, #section_new_post {
+	border: 1px solid #FFF;
+	padding: 10px;
+	overflow: visible;
+}
+.container_header {
+	width: 960px;
+	height: 135px;
+}
+#introduction {
+	width: 530px;
+	font-weight: bold;
+	line-height: 2em;
+	margin: 50px 0 0 30px;
+}
+#introduction h2 {
+	margin: 20px 0 0 30px;
+	font-size: 1.6em;
+}
+#render_time, #validate_badges {
+	text-align: right;
+	margin-right: 20px;
+}
+#recent_work_header {
+	border: 1px solid #FFF;
+	height: 30px;
+	width: 915px;
+	background: url(../images/blueprint_grid.png) center;
+	margin: 330px 0 0 20px;
+}
+#recent_work_header img, .box_subheader img {margin-left: 10px;}
+#pitchphrase {margin-top: 25px;}
+#column_main {
+	margin: 20px 0 20px 20px;
+	width: 615px;
+}
+#column_sidebar {
+	width: 280px;
+	margin: 20px 20px 0 0;
+}
+.wrapper_header_gradient {
+	background: url(../images/bg_header_wrapper.jpg) no-repeat;
+	height: 150px;
+	width: 1240px;
+}
+#social a:hover {text-decoration: none;}
+#case_study {margin-bottom: 20px;}
+#wrapper_main_gradient {
+	background: url(../images/bg_wrapper_main_gradient.jpg) repeat-y;
+	width: 1240px;
+	padding: 0 0 15px 0;
+}
+
+/* ======= [SIDEBAR]
+========================================= */
+#services {margin-bottom: 20px;}
+#services ul {font-weight: bold;}
+#availability img {
+	float: left;
+	margin: 3px 10px 0 0;
+}
+
+/* ======= [FORMS]
+========================================= */
+.error, .required { color: #FF3532; }
+.textfield {width: 455px;}
+#hint {
+	font-size: 12px;
+	font-style: italic;
+	color: #CCC;
+}
+#textarea_contact {
+	font-size: 16px;
+	width: 460px !important;
+	height: 400px !important;
+}
+#textarea_new_post {
+	font-size: 16px;
+	width: 593px !important;
+	height: 400px !important;
+}
+
+/* ======= [FOOTER]
+========================================= */
+#copyright {margin-left: 20px;}
+#row_footer {
+	width: 100%;
+	height: 70px;
+}
+#container_footer {
+	color: #fff;
+	clear: both;
+	font-size: 0.750em;
+	padding: 10px;
+	width: 960px;
+}
+#social_footer {
+	margin-right: 15px;
+}
+#social_footer ul li {
+	display: inline-block;
+	width: 40px;
+}
+
+#social ul li span {
+	letter-spacing: 0.15em;
+	font-weight: bold;
+	margin-left: 20px;
+	position: relative;
+	top: -13px;
+}
